@@ -6,6 +6,7 @@
   --color-white: #ffffff;
   --color-cloud: #f4f4fd;
   --color-cornflower: #e7e9fc;
+  --color-grey: #2e2f42;
 }
 
 * {
@@ -130,7 +131,14 @@ img {
 }
 
 .hero {
-  background-color: var(--color-navy-blue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/goit-markup-hw-03/images/hero-bg-img.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: auto auto;
   padding-top: 188px;
   padding-bottom: 188px;
 }
